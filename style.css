@@ -1,33 +1,31 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color: orange;
+    color: white;
 }
-h1{
+
+h1 {
     text-align: center;
-    color: red;
 }
-
-
-
 .galary img{
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border: 4px double grey;
-}   
-.galary{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
-nav a{
-border:2px solid white;
-text-decoration: none;
-padding: 15px;
-margin: 15px;
-
+nav a {
+    text-decoration: none;
+    color: orange;
+    background-color: white;
+    border-radius : 50px;
+    font-size: 21px;
+    padding: 5px;
+    margin: 5px;
 }
-nav{
-    text-align: center;
+nav{ text-align: center;}
+img{
+    border: 3px double grey;
+}
+iframe{
+    border: 3px solid grey;
 }
 footer a{
     text-decoration: none;
